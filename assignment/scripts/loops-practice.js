@@ -13,15 +13,15 @@ for (let i = 0; i < 4; i++) {
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i <= 5; i++) {
   console.log(i);
 }
-// Changed 'i < 4' to 'i < 6'
+// Changed 'i < 4' to 'i <= 5'
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
-for (let i = 3; i < 6; i++) {
+for (let i = 3; i <= 5; i++) {
   console.log(i);
 }
 // Changed 'i = 0' to 'i = 3'
@@ -36,7 +36,7 @@ for (let i = 2; i <= 10; i += 2) {
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-for (let i = 5; i > -1; i--) {
+for (let i = 5; i >= 0; i--) {
   console.log(i);
 }
 
